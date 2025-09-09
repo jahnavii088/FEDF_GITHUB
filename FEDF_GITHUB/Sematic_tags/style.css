@@ -1,0 +1,78 @@
+.page1{
+    background-color: gray;
+    border-radius: 10px;
+    border: 1px solid red;
+    margin: 10px 15px 10px 15px;
+    padding: 20px;
+}
+.page1 h1{
+    text-align: center;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+.page1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    color:black;
+}
+.page2{
+    width: 450px;
+    margin: auto;
+    border: 2px solid black;
+
+}
+.page2 h1{
+    text-align: center;
+    font-style: oblique;
+    color:brown;
+}
+.page2 p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    text-align: justify;
+    color:green;
+    padding: 10px;
+}
+header{
+    background-color:pink;
+    text-align: center;
+    padding: 5px;
+}
+header h1{
+    color: darkgreen;
+    border: 7px solid ;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 40px;
+}
+nav ul{
+    list-style-type:none;
+    background-color: blueviolet;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+nav li{
+    float: left;
+    
+}
+nav a{
+    text-align: center;
+    padding: 15px 13px;
+    display: inline-block;
+    color: orangered;
+    margin: 10px 15px 10px 15px;
+    text text-decoration: none;
+}
+
+nav a:hover{
+   color: black;
+}
+footer{
+    background-color: darkolivegreen;
+    color: chocolate;
+    padding: 5px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <main>
+    <!-- Search Form -->
+    <form id="weatherForm">
+      <input type="text" id="name" placeholder="Enter city name" required>
+      <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+
+    <!-- Weather Results -->
+    <div class="result">
+      <div class="name">
+        <img src="" alt="Country Flag">
+        <figcaption>City Name</figcaption>
+      </div>
+
+      <figure class="temperature">
+        <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="Weather Icon">
+        <figcaption><span>25</span>°C</figcaption>
+      </figure>
+
+      <p class="description">Clear Sky</p>
+
+      <!-- Extra Info -->
+      <ul>
+        <li>
+          <i class="fa-solid fa-cloud"></i>
+          <span id="clouds">--</span><br>Clouds
+        </li>
+        <li>
+          <i class="fa-solid fa-droplet"></i>
+          <span id="humidity">--</span><br>Humidity
+        </li>
+        <li>
+          <i class="fa-solid fa-gauge-high"></i>
+          <span id="pressure">--</span><br>Pressure
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
